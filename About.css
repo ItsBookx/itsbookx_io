@@ -12,6 +12,10 @@
   margin: 20px auto 60px;
 }
 
+.u-section-1 .u-btn-1 {
+  background-image: none;
+}
+
 @media (max-width: 767px) {
   .u-section-1 .u-text-2 {
     width: 540px;
@@ -20,6 +24,12 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-text-2 {
-    width: 340px;
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-btn-1 {
+    padding: 0;
   }
 }
