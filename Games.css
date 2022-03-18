@@ -155,36 +155,34 @@
 @media (max-width: 575px) {
   .u-section-1 .u-text-1 {
     font-size: 3rem;
-    margin-top: 35px;
-    margin-right: 120px;
-    margin-left: 63px;
+    margin-top: 36px;
+    margin-right: 35px;
+    margin-left: 148px;
   }
 
   .u-section-1 .u-icon-1 {
-    margin-top: -126px;
-    margin-left: -502px;
+    margin-top: -128px;
+    margin-left: -419px;
   }
 
   .u-section-1 .u-btn-1 {
-    margin-top: 6px;
-    margin-left: -50px;
+    margin-top: 8px;
     padding: 10px 9px;
   }
 
   .u-section-1 .u-btn-2 {
     margin-top: 91px;
     margin-right: auto;
-    margin-left: -50px;
+    margin-left: 0;
   }
 
   .u-section-1 .u-btn-3 {
-    margin-top: -110px;
-    margin-left: -50px;
+    margin-top: -111px;
   }
 
   .u-section-1 .u-btn-4 {
-    margin-top: 88px;
+    margin-top: 90px;
     margin-right: auto;
-    margin-left: -50px;
+    margin-left: 0;
   }
 }
