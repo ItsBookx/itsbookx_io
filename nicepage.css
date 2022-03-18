@@ -21338,7 +21338,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Roboto,sans-serif;
+  font-family: Oswald,sans-serif;
 }
 /*end-variables font-family*/
 /*begin-variables color*/
@@ -21362,7 +21362,7 @@ h6 {
   font-family: 'Open Sans',sans-serif !important;
 }
 .u-custom-font.u-heading-font {
-  font-family: Roboto,sans-serif !important;
+  font-family: Oswald,sans-serif !important;
 }
 /*end-variables font*/
 /*begin-variables colors*/
@@ -36053,6 +36053,11 @@ a.u-link.u-text-hover-grey-90:hover {
         
         
         
+        
+        
+        
+        
+        
         --theme-sheet-width-xl: 1140px;
         --theme-sheet-width-lg: 940px;
         --theme-sheet-width-md: 720px;
@@ -36074,6 +36079,7 @@ a.u-link.u-text-hover-grey-90:hover {
         line-height: 1.1;
         margin-top: 20px;
         margin-bottom: 20px;
+        font-family: 'Roboto Slab',serif;
         }
         h2.u-subtitle
         {
@@ -36082,6 +36088,7 @@ a.u-link.u-text-hover-grey-90:hover {
         line-height: 1.1;
         margin-top: 20px;
         margin-bottom: 20px;
+        font-family: 'Roboto Slab',serif;
         }
         h1:not(.u-title)
         {
@@ -36142,20 +36149,23 @@ a.u-link.u-text-hover-grey-90:hover {
         font-size: 0.875rem;
         margin-top: 20px;
         margin-bottom: 20px;
+        font-family: Raleway,sans-serif;
         }
         p:not(.u-text-variant)
         {
         margin-top: 20px;
         margin-bottom: 20px;
+        font-family: 'Titillium Web',sans-serif;
         }
         .u-btn
         {
         margin-top: 20px;
         margin-bottom: 20px;
+        font-family: Arial,sans-serif;
         }
         .u-btn
         {
-        border-radius: 31px;
+        border-radius: 34px;
         }
         blockquote
         {
@@ -36349,7 +36359,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 116px;
+  min-height: 118px;
 }
 
 .u-header .u-image-1 {
@@ -36370,7 +36380,8 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-nav-1 {
   font-size: 1rem;
   letter-spacing: 0px;
-  font-weight: 500;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .u-header .u-nav-2 {
@@ -36421,7 +36432,16 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-left: 26px;
   }
 }
+@media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 176px;
+  }
 
+  .u-header .u-image-1 {
+    width: 64px;
+    margin-left: 21px;
+  }
+}
  .u-footer {
   background-image: none;
 }
